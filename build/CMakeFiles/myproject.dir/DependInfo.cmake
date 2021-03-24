@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/erik/Documents/Dev/C++/HelloWorld/source/EntityHealth/EntityHealth.cpp" "/home/erik/Documents/Dev/C++/HelloWorld/build/CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o"
-  "/home/erik/Documents/Dev/C++/HelloWorld/source/Player/Player.cpp" "/home/erik/Documents/Dev/C++/HelloWorld/build/CMakeFiles/myproject.dir/source/Player/Player.cpp.o"
-  "/home/erik/Documents/Dev/C++/HelloWorld/source/main.cpp" "/home/erik/Documents/Dev/C++/HelloWorld/build/CMakeFiles/myproject.dir/source/main.cpp.o"
+  "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.cpp" "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o"
+  "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.cpp" "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles/myproject.dir/source/Player/Player.cpp.o"
+  "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/main.cpp" "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles/myproject.dir/source/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
+  "../ThirdParty/include"
   )
 
 # Targets to which this target links.

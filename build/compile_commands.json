@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build",
+  "command": "/usr/bin/c++  -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include  -o CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.cpp",
+  "file": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.cpp"
+},
+{
+  "directory": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build",
+  "command": "/usr/bin/c++  -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include  -o CMakeFiles/myproject.dir/source/Player/Player.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.cpp",
+  "file": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.cpp"
+},
+{
+  "directory": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build",
+  "command": "/usr/bin/c++  -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include  -o CMakeFiles/myproject.dir/source/main.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/main.cpp",
+  "file": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/main.cpp"
+}
+]

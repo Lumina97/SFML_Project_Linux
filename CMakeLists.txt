@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.6)
 project(myproject)
 
 # Set version information in a config.h file
@@ -15,6 +15,9 @@ file(GLOB_RECURSE SOURCES
     source/*.cpp
 )
 
+include_directories(${CMAKE_SOURCE_DIR}/ThirdParty/include/)
+
+
 # Define sources and executable
 set(EXECUTABLE_NAME "myproject")
 add_executable(${EXECUTABLE_NAME} ${SOURCES} "${CMAKE_SOURCE_DIR}/source/main.cpp")
@@ -25,6 +28,7 @@ add_executable(${EXECUTABLE_NAME} ${SOURCES} "${CMAKE_SOURCE_DIR}/source/main.cp
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 find_package(SFML 2.5 REQUIRED system window graphics network audio)
 target_link_libraries(${EXECUTABLE_NAME} ${SFML_LIBRARIES})
+target_link_libraries(${EXECUTABLE_NAME} spdlog)
 
 
 # Install target

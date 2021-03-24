@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/erik/Documents/Dev/C++/HelloWorld/build
+CXX_INCLUDES = -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include
 
 CXX_FLAGS = 
 
