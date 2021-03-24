@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erik/Documents/Dev/C++/HelloWorld/source/EntityHealth/EntityHealth.h
+iostream
+-
+
+/home/erik/Documents/Dev/C++/HelloWorld/source/Player/Player.h
+iostream
+-
+string
+-
+SFML/Graphics.hpp
+/home/erik/Documents/Dev/C++/HelloWorld/source/Player/SFML/Graphics.hpp
+../EntityHealth/EntityHealth.h
+/home/erik/Documents/Dev/C++/HelloWorld/source/EntityHealth/EntityHealth.h
+
+/home/erik/Documents/Dev/C++/HelloWorld/source/main.cpp
+config.h
+/home/erik/Documents/Dev/C++/HelloWorld/source/config.h
+iostream
+-
+SFML/Graphics.hpp
+-
+Player/Player.h
+/home/erik/Documents/Dev/C++/HelloWorld/source/Player/Player.h
+
+config.h
+
