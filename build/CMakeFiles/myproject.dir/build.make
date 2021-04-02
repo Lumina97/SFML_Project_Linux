@@ -76,9 +76,35 @@ include CMakeFiles/myproject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/myproject.dir/flags.make
 
+CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o: CMakeFiles/myproject.dir/flags.make
+CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o: ../source/Core/ComponentManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/ComponentManager.cpp
+
+CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/ComponentManager.cpp > CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.i
+
+CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/ComponentManager.cpp -o CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.s
+
+CMakeFiles/myproject.dir/source/Core/Log.cpp.o: CMakeFiles/myproject.dir/flags.make
+CMakeFiles/myproject.dir/source/Core/Log.cpp.o: ../source/Core/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myproject.dir/source/Core/Log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myproject.dir/source/Core/Log.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.cpp
+
+CMakeFiles/myproject.dir/source/Core/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myproject.dir/source/Core/Log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.cpp > CMakeFiles/myproject.dir/source/Core/Log.cpp.i
+
+CMakeFiles/myproject.dir/source/Core/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myproject.dir/source/Core/Log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.cpp -o CMakeFiles/myproject.dir/source/Core/Log.cpp.s
+
 CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o: CMakeFiles/myproject.dir/flags.make
 CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o: ../source/EntityHealth/EntityHealth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.cpp
 
 CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.i: cmake_force
@@ -91,7 +117,7 @@ CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.s: cmake_force
 
 CMakeFiles/myproject.dir/source/Player/Player.cpp.o: CMakeFiles/myproject.dir/flags.make
 CMakeFiles/myproject.dir/source/Player/Player.cpp.o: ../source/Player/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myproject.dir/source/Player/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myproject.dir/source/Player/Player.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myproject.dir/source/Player/Player.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.cpp
 
 CMakeFiles/myproject.dir/source/Player/Player.cpp.i: cmake_force
@@ -104,7 +130,7 @@ CMakeFiles/myproject.dir/source/Player/Player.cpp.s: cmake_force
 
 CMakeFiles/myproject.dir/source/main.cpp.o: CMakeFiles/myproject.dir/flags.make
 CMakeFiles/myproject.dir/source/main.cpp.o: ../source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myproject.dir/source/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myproject.dir/source/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myproject.dir/source/main.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/main.cpp
 
 CMakeFiles/myproject.dir/source/main.cpp.i: cmake_force
@@ -117,6 +143,8 @@ CMakeFiles/myproject.dir/source/main.cpp.s: cmake_force
 
 # Object files for target myproject
 myproject_OBJECTS = \
+"CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o" \
+"CMakeFiles/myproject.dir/source/Core/Log.cpp.o" \
 "CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o" \
 "CMakeFiles/myproject.dir/source/Player/Player.cpp.o" \
 "CMakeFiles/myproject.dir/source/main.cpp.o"
@@ -124,6 +152,8 @@ myproject_OBJECTS = \
 # External object files for target myproject
 myproject_EXTERNAL_OBJECTS =
 
+myproject: CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o
+myproject: CMakeFiles/myproject.dir/source/Core/Log.cpp.o
 myproject: CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o
 myproject: CMakeFiles/myproject.dir/source/Player/Player.cpp.o
 myproject: CMakeFiles/myproject.dir/source/main.cpp.o
@@ -134,7 +164,7 @@ myproject: /usr/lib/libsfml-graphics.so
 myproject: /usr/lib/libsfml-network.so
 myproject: /usr/lib/libsfml-audio.so
 myproject: CMakeFiles/myproject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable myproject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/erik/Documents/Dev/Github/SFML_Linux_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable myproject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myproject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -9,13 +9,14 @@
 int main()
 {
     Log::Init();
-   // LOG::Log::GetLogger()->warn("Version " + std::to_string(myproject_VERSION_MAJOR) + "." + std::to_string(myproject_VERSION_MINOR) );
-    std::cout << "Version " << myproject_VERSION_MAJOR << "." << myproject_VERSION_MINOR << std::endl;
+    LOG_TRACE("Version " + std::to_string(myproject_VERSION_MAJOR) + "." +
+        std::to_string(myproject_VERSION_MINOR) );
+
     
     sf::RenderWindow window(sf::VideoMode(800, 600), "SFML game");
     
     Player* player = new Player((uint32_t)10);
-    std::cout <<"Player health: " << player->GetHealth() << std::endl;    
+    LOG_INFO("Player health: " + std::to_string( player->GetHealth() ) );
 
     //Clock
     sf::Clock clock;

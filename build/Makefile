@@ -210,6 +210,60 @@ myproject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/build
 .PHONY : myproject/fast
 
+source/Core/ComponentManager.o: source/Core/ComponentManager.cpp.o
+
+.PHONY : source/Core/ComponentManager.o
+
+# target to build an object file
+source/Core/ComponentManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o
+.PHONY : source/Core/ComponentManager.cpp.o
+
+source/Core/ComponentManager.i: source/Core/ComponentManager.cpp.i
+
+.PHONY : source/Core/ComponentManager.i
+
+# target to preprocess a source file
+source/Core/ComponentManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.i
+.PHONY : source/Core/ComponentManager.cpp.i
+
+source/Core/ComponentManager.s: source/Core/ComponentManager.cpp.s
+
+.PHONY : source/Core/ComponentManager.s
+
+# target to generate assembly for a file
+source/Core/ComponentManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.s
+.PHONY : source/Core/ComponentManager.cpp.s
+
+source/Core/Log.o: source/Core/Log.cpp.o
+
+.PHONY : source/Core/Log.o
+
+# target to build an object file
+source/Core/Log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/source/Core/Log.cpp.o
+.PHONY : source/Core/Log.cpp.o
+
+source/Core/Log.i: source/Core/Log.cpp.i
+
+.PHONY : source/Core/Log.i
+
+# target to preprocess a source file
+source/Core/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/source/Core/Log.cpp.i
+.PHONY : source/Core/Log.cpp.i
+
+source/Core/Log.s: source/Core/Log.cpp.s
+
+.PHONY : source/Core/Log.s
+
+# target to generate assembly for a file
+source/Core/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/source/Core/Log.cpp.s
+.PHONY : source/Core/Log.cpp.s
+
 source/EntityHealth/EntityHealth.o: source/EntityHealth/EntityHealth.cpp.o
 
 .PHONY : source/EntityHealth/EntityHealth.o
@@ -306,6 +360,12 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... myproject"
+	@echo "... source/Core/ComponentManager.o"
+	@echo "... source/Core/ComponentManager.i"
+	@echo "... source/Core/ComponentManager.s"
+	@echo "... source/Core/Log.o"
+	@echo "... source/Core/Log.i"
+	@echo "... source/Core/Log.s"
 	@echo "... source/EntityHealth/EntityHealth.o"
 	@echo "... source/EntityHealth/EntityHealth.i"
 	@echo "... source/EntityHealth/EntityHealth.s"

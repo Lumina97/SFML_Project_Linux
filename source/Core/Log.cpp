@@ -2,8 +2,7 @@
 #include "spdlog/sinks/stdout_color_sinks.h"
 #include <iostream>
 
-namespace LOG
-{
+
     std::shared_ptr<spdlog::logger> Log::CoreLogger;
 
     void Log::Init(){
@@ -14,4 +13,4 @@ namespace LOG
 
     }
 
-}
+

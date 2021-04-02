@@ -1,14 +1,14 @@
 #include "Player.h"
+#include "../Core/Log.h"
 
 Player::Player(uint32_t health){
-    //std::cout << "Constructed Player with health: "<< health<< std::endl;
-    spdlog::info("Constructed Player with health: " + std::to_string(health));
+    LOG_INFO( "Constructed Player with health: " + std::to_string(health) );
     this->health = new EntityHealth();
     this->health->SetHealth(health);  
 } 
 
 Player::~Player(){
-    std::cout << "Destructed Player" << std::endl;
+    LOG_INFO( "Destructed Player");
     delete this->health;
 }
 
@@ -29,26 +29,30 @@ void Player::DrawPlayer(sf::RenderWindow& window, Core::Timestep ts){
 sf::Texture Player::Animate(Core::Timestep ts)
 {
     sf::Texture tex;
-    int32_t xCoord =  currentXSprite * spriteWidth;
-    int32_t yCoord =  currentYSprite * spriteHeight;
+    int32_t xCoord =  (int32_t) currentXSprite * spriteWidth;
+    int32_t yCoord =  (int32_t) currentYSprite * spriteHeight;
 
     if(!tex.loadFromFile("../Resources/Player/Sprites/rogue.png", sf::IntRect(xCoord,yCoord,spriteWidth,spriteHeight) ))
     {
-        spdlog::error("There was an error getting sprite animation!/n x = " + std::to_string(xCoord) + "\n y = " + std::to_string(yCoord));
+        LOG_ERROR("There was an error getting sprite animation!/n x = " + std::to_string(xCoord) + "\n y = " + std::to_string(yCoord));
         return tex;
     }
 
-    float x = currentXSprite * ts;
-    spdlog::info( x);
-    currentXSprite = (int32_t)(currentXSprite * ts) % 1;
+    accumulator += ts;
 
+    while(accumulator > 1.0/15.0)
+    {
+        currentXSprite++;
 
-    if(currentXSprite >= maxXSprites - 1) {
-        currentXSprite = 0;
-        currentYSprite++;
+        if(currentXSprite >= maxXSprites ) {
+            currentXSprite = 0;
+            currentYSprite++;
+        }
+
+        if(currentYSprite >= maxYSprites) currentYSprite = 0;
+        accumulator -= 1.0/15.0;
+        if(accumulator < 0) accumulator  =0;
     }
-
-    if(currentYSprite >= maxYSprites - 1) currentYSprite = 0;
 
     return tex;
 }

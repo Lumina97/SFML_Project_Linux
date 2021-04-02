@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o"
+  "CMakeFiles/myproject.dir/source/Core/Log.cpp.o"
   "CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o"
   "CMakeFiles/myproject.dir/source/Player/Player.cpp.o"
   "CMakeFiles/myproject.dir/source/main.cpp.o"

@@ -39,3 +39,15 @@ isExecutable=false
 
 [Project]
 VersionControlSupport=kdevgit
+
+[SourceFileTemplates]
+LastUsedTemplate=/home/erik/.local/share/kdevfiletemplates/template_descriptions/cpp_basic.desktop
+
+[SourceFormatter]
+text/x-c++hdr=kdevcustomscript||GNU_indent_GNU
+text/x-c++src=kdevcustomscript||GNU_indent_GNU
+text/x-chdr=kdevcustomscript||GNU_indent_GNU
+text/x-csharp=kdevcustomscript||GNU_indent_GNU
+text/x-csrc=kdevcustomscript||GNU_indent_GNU
+text/x-java=kdevcustomscript||GNU_indent_GNU
+text/x-objcsrc=kdevcustomscript||GNU_indent_GNU

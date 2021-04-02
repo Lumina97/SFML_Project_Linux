@@ -1,6 +1,16 @@
 [
 {
   "directory": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build",
+  "command": "/usr/bin/c++  -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include  -o CMakeFiles/myproject.dir/source/Core/ComponentManager.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/ComponentManager.cpp",
+  "file": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/ComponentManager.cpp"
+},
+{
+  "directory": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build",
+  "command": "/usr/bin/c++  -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include  -o CMakeFiles/myproject.dir/source/Core/Log.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.cpp",
+  "file": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.cpp"
+},
+{
+  "directory": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/build",
   "command": "/usr/bin/c++  -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/build -I/home/erik/Documents/Dev/Github/SFML_Linux_Project/ThirdParty/include  -o CMakeFiles/myproject.dir/source/EntityHealth/EntityHealth.cpp.o -c /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.cpp",
   "file": "/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.cpp"
 },

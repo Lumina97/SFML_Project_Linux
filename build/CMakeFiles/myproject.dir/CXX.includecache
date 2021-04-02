@@ -536,6 +536,12 @@ memory
 iostream
 -
 
+/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.cpp
+Player.h
+/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.h
+../Core/Log.h
+/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.h
+
 /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.h
 iostream
 -
@@ -549,22 +555,4 @@ spdlog/spdlog.h
 /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/EntityHealth/EntityHealth.h
 ../Core/Timestep.h
 /home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Timestep.h
-
-/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/main.cpp
-config.h
-/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/config.h
-iostream
--
-SFML/Graphics.hpp
--
-SFML/System.hpp
--
-Player/Player.h
-/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Player/Player.h
-Core/Timestep.h
-/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Timestep.h
-Core/Log.h
-/home/erik/Documents/Dev/Github/SFML_Linux_Project/source/Core/Log.h
-
-config.h
 

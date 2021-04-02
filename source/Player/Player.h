@@ -35,4 +35,8 @@ private:
     int32_t currentYSprite = 0;
     int32_t spriteWidth = 32;
     int32_t spriteHeight = 32;
+
+
+private:
+    float_t accumulator = 0.0f;
 };
